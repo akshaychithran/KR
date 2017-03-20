@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int c;
+	c = getchar();
+	while (c != EOF)
+	{
+		printf("%d",c != EOF); 
+		putchar(c);
+		c = getchar();
+	}
+	printf("%d",c != EOF);
+	
+		
+}
